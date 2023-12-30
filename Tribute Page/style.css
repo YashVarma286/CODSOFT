@@ -1,6 +1,6 @@
 * {margin: 0;padding: 0;box-sizing: border-box;}
 *::selection{color: #000;background: #fff;}
-  body {font-family: "HelveticaNeue-Black", Helvetica, Arial;color: white;background-color: black;overflow-x: auto;box-sizing: border-box;overflow-x: hidden;}  
+  body {font-family: Arial;color: white;background-color: black;overflow-x: auto;box-sizing: border-box;overflow-x: hidden;}  
   
   .hidden {padding: 2rem;margin: 1rem 0;text-align: center;z-index: 99;}  
   .hidden > .title {margin-bottom: 1rem;font-size: 3rem;animation: blink 7s linear;}
@@ -18,7 +18,7 @@
   .quote-img img {height: 53vh;width: 55vh;border-radius: 10px;box-shadow: 3px 3px 0px white,5px 5px 15px white,5px 5px 40px white,15px 15px 60px white;object-fit: cover;}
   .tribute {display: grid;grid-template-columns: 2fr ;max-width: 50rem;margin: 0;align-items: center;padding: 0 1rem;}  
   .tribute blockquote {font-size: 1.8rem;line-height: 1.4;}  
-  .quote {font-weight: bold;font-family: Arial, Helvetica, sans-serif;font-size: 3rem;text-align: end;}
+  .quote {font-weight: bold;font-family: Arial, sans-serif;font-size: 3rem;text-align: end;}
   .quote > p {margin-top: 30px;}
   .bio {margin: 2rem auto;padding: 0 0.5rem;max-width: 1000px;}  
   .bio > h2 {margin-bottom: 1rem;font-size: 3rem;line-height: 1.2;}  
@@ -50,8 +50,8 @@
   .container-img img {object-fit: cover;}
 .h-scrolling {min-width: 100vw;height: 100vh;display: flex;align-items: left;justify-content: center;font-size: 2em;flex-direction: column;padding: 0 20px;}
 .container-title {position: absolute;top: 50px;font-size: 45px;margin: 10px 100px;}
-.section-title {font-family: "Helvetica Neue", Helvetica, Arial;font-size: 43px;position: absolute;top: 200px;}
-.section-content {font-family: "Helvetica Neue", Helvetica, Arial;width: 60vw;position: absolute;top: 290px;padding: 0 14px;}
+.section-title {font-family: Arial;font-size: 43px;position: absolute;top: 200px;}
+.section-content {font-family: Arial;width: 60vw;position: absolute;top: 290px;padding: 0 14px;}
 .section-content > h4 {font-size: 1.5rem;margin: 10px 0;}
 .section-content > p {font-size: 1.2rem;line-height: 1.4;}
 
@@ -112,6 +112,9 @@
 .h-scrolling{padding: 5px;}
 .reveal img {min-height: 220px;}
 .pre-loader {height: 110vh;width: 110vw;}
+}
+@media screen and (max-width : 400px) {
+  .section-quote {min-height: 130vh;}
 }
 @media screen and (max-width: 330px) {
   .quote {font-size: 2rem;}
