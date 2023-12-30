@@ -1,2 +1,2 @@
 # CODSOFT Internship Tasks
-1)Tribute Page : https://yashvarma286.github.io/CODSOFT/
+1)Tribute Page : https://yashvarma286.github.io/CODSOFT/Tribute%20Page
