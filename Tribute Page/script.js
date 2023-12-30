@@ -9,7 +9,7 @@ let scrollTween = gsap.to(sections, {
         trigger: ".section-container",
         pin: true,
         scrub: 1,
-        end: "+=3000"
+        end: "+=2000"
     }
 })
 sections.forEach(section => {
